@@ -16,3 +16,6 @@ Keyboard customisations for Emacs/and hence for linux.
 **path** - `./Xmodmap`
 Run `xmodmap ~/.Xmodmap` for immediate effect. 
 	
+# gtk3.0
+Emacs like keybindings for Google Chrome.   
+**path:**  `~/.config/gtk-3.0/settings.init`
