@@ -1,0 +1,25 @@
+# GitLab.com
+Host gitlab.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/gitlab
+
+# Private GitLab instance
+Host gitlab.company.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/gitlab
+
+
+# github vyntelligence
+Host github_ankitvyn
+     HostName github.com
+     User git
+     IdentityFile ~/.ssh/github_ankitvyn	
+     IdentitiesOnly yes
+
+# github - ankitf
+Host github_ankitf
+     HostName github.com
+     User git	
+     IdentityFile ~/.ssh/github_ankitf
+     
+      
