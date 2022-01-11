@@ -1,2 +1,18 @@
 # linux_setup
 Various Configurations for Linux Setup
+
+# i3 - Tiling Window Manager   
+## config   
+	i3 config   
+	path - ~/.config/i3/config 
+## i3status.conf  
+	i3 status bar customizations.   
+	path - `/etc/i3status.conf` or `~/.config/i3/i3status.conf`
+	
+# xmodmap 
+	Keyboard customisations for Emacs/and hence for linux. 
+	1. CapsLock --> Ctrl 
+	2. Shift+CapsLock --> CapsLock
+	path - `./Xmodmap`
+	Run `xmodmap ~/.Xmodmap` for immediate effect. 
+	
