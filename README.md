@@ -12,9 +12,9 @@ i3 status bar customizations.
 ## xmodmap 
 Keyboard customisations for Emacs/and hence for linux. 
 1. CapsLock --> Ctrl 
-2. Shift+CapsLock --> CapsLock
-**path** - `./Xmodmap`
-Run `xmodmap ~/.Xmodmap` for immediate effect. 
+2. Shift+CapsLock --> CapsLock   
+**path** - `./Xmodmap`  
+Run `xmodmap ~/.Xmodmap` in terminal for immediate effect. 
 	
 ## gtk3.0
 Emacs like keybindings for Google Chrome.   
@@ -23,4 +23,6 @@ Emacs like keybindings for Google Chrome.
 ## xrandr - Multi monitor setup
 `xrandr --output HDMI-0 --auto --left-of eDP-1`
 
-
+## TODOs
+- [ ] Github ssh setup for multiple account - [Link](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
+	- Create a readme for ssh setup using the above link.
