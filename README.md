@@ -20,8 +20,18 @@ Run `xmodmap ~/.Xmodmap` in terminal for immediate effect.
 Emacs like keybindings for Google Chrome.   
 **path:**  `~/.config/gtk-3.0/settings.init`  
 
-## xrandr - Multi monitor setup
+## xrandr - 
+### Multi monitor setup
 `xrandr --output HDMI-0 --auto --left-of eDP-1`
+
+### brightness 
+`xrandr --output DP-4 --brightness 0.8`
+
+## xinput 
+### disable keyboard/input device
+1. Find slave id of the keyboard `xinput list`
+2. Disable keyboard. `xinput --disable <slave-id>`
+3. Enable keyboard. `xinput --enable <slave-id>`
 
 ## TODOs
 - [ ] Github ssh setup for multiple account - [Link](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
