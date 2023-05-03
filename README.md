@@ -36,3 +36,8 @@ Emacs like keybindings for Google Chrome.
 ## TODOs
 - [ ] Github ssh setup for multiple account - [Link](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
 	- Create a readme for ssh setup using the above link.
+
+## Conservation model for linux 
+A simple bash script to turn on or off conservation mode for lenovo legion 5. 
+Conservation mode will limit the battery charging to 60%
+**path** - `./ch.sh`  
