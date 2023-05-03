@@ -8,6 +8,10 @@ i3 config
 ### i3status.conf
 i3 status bar customizations.   
 **path:** `/etc/i3status.conf` or `~/.config/i3/i3status.conf`
+
+### i3 battery popup
+Low battery warning in i3wm
+Github: https://github.com/rjekker/i3-battery-popup
 	
 ## xmodmap 
 Keyboard customisations for Emacs/and hence for linux. 
